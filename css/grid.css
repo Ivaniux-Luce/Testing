@@ -1,0 +1,35 @@
+.container{
+  width: 100%;
+  padding: 5% 1%;
+  margin: 0px;
+  display: flex;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.row_categorie{
+  width: 20%;
+  max-width: 600px;
+  padding-right: 10px;
+}
+
+.col_product{
+  align-self: center;
+  max-width: 600px;
+  width: 45%;
+  background-color: var(--green-ligther);
+  margin: 1%;
+
+}
+
+.col_categories{
+  background-color: var(--white-darker);
+  max-width: 500px;
+  height: auto;
+  padding: 5%;
+  margin: 1%;
+}

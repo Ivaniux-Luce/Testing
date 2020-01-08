@@ -1,0 +1,259 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+/* ------------Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* ------------Fuentes */
+/* -----------Variables */
+:root{
+  /* ------colores */
+  --black-text: #77867F;
+  --blue-ligther: #3F27B3;
+  --blue-darker: #4D40AD;
+  --green-ligther: #9CE37D;
+  --green: #4CB944;
+  --green-darker: #87B37A;
+  --white-darker: #EAEAEA;
+  --white-ligther: #FDFFFC;
+  /* ------Tamaños de fuentes */
+  --text_50: 50px;
+  --text_40: 40px;
+  --text_33: 33px;
+  --text_22: 22px;
+  --text_11: 11px;
+
+
+}
+/* -----------Variables */
+
+html,body{
+  padding:0px;
+  margin:0px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.liner{
+  background-color: var(--black-text);
+  height: 2px;
+  width: 100%;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+nav{
+
+  display: flex;
+  background-color: var(--blue-ligther);
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav_options img{
+  padding-right: 25px;
+}
+
+.home_content{
+  display: flex;
+  padding: 0px;
+}
+
+.home_content .categories_home{
+  padding: 20px 0px 10px 0px;
+}
+
+.categories_home .categories_home_background{
+  background-color: var(--blue-ligther);
+  background-size: cover;
+  padding: 10px;
+}
+
+
+.home_content .main_text{
+  color: var(--black-text);
+  padding: 50px 0px 10px 0px;
+  text-align: center;
+}
+
+.description_text_background{
+  background-image: url("../images/curva_home.png");
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.descriptions .description{
+  font-size: 25px;
+  text-align: center;
+  padding: 150px 100px 0px 100px;
+  color: var(--black-text);
+}
+
+.title_articles{
+  text-align: center;
+  padding-top: 250px;
+}
+
+.popular_products{
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.popular_product_space{
+  padding: 10px;
+}
+
+.popular_product_border{
+  background-color: var(--green-ligther);
+  padding: 10px;
+}
+
+.popular_product_border .popular_pruduct_box{
+  background-color: var(--white-ligther);
+  padding: 10px;
+}
+
+.popular_product{
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular_product_description{
+  color: var(--green);
+  font-size: var(--text_33);
+  text-align: center;
+}
+
+.popular_product_price{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.popular_product_price .text{
+  color: var(--black-text);
+  font-size: var(--text_11);
+}
+
+.popular_product_price .price_mayoreo{
+  color: var(--green-ligther);
+  font-size: var(--text_50);
+}
+
+.popular_product_price .price_menudeo{
+  color: var(--green-darker);
+  font-size: var(--text_50);
+}
+
+.title_opinions{
+  text-align: left;
+  color: var(--black-text);
+  padding: 20px;
+}
+
+.opiniones{
+  padding: 20px 0px 20px 20px;
+}
+
+.main_button{
+  padding: 100px 0px 100px 25%;
+}
+
+.faq_button{
+  background-color: var(--green-ligther);
+  align-items: center;
+  width: 70%;
+  padding: 40px;
+  border: 0px;
+  color: var(--white-ligther);
+  font-size: var(--text_22);
+  cursor: pointer;
+}
+
+.faq_button:hover{
+  background-color: var(--green-darker);
+}
+
+.footer{
+  background-color: var(--black-text);
+  color: var(--white-ligther);
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_contact{
+  padding: 10px;
+  padding-left: 50px;
+  font-size: var(--text_50);
+  display: flow-root;
+}
+
+.footer_contact .contact_images{
+  display: flex;
+  padding: 10px;
+  padding-left: 25%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact_cell {
+  padding-left: 150px;
+  font-size: var(--text_33);
+}
+
+.contact_cell li{
+  align-items: center;
+  font-size: var(--text_11);
+  list-style: none;
+}
+
+.opening_hours{
+  padding-left: 5%;
+  align-self: center;
+}
+
+.Gou21b {
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.x2TOCf {
+  font-weight: 400;
+  text-align: inherit;
+}
+
+.o0m3Qb {
+  padding: 0 .5em;
+}
+
+.WF8WNe {
+  white-space: nowrap;
+}
+
+.term_condicions{
+  align-self: center;
+  font-size: 18px;
+  width: 40%;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.categorie_list{
+  padding: 10px;
+}
+
+.categorie_list li{
+  padding-top: 5px;
+  padding-left: 5px;
+}
